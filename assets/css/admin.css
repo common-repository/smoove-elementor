@@ -1,0 +1,180 @@
+.smef-settings-wrap{
+	padding: 10px 0;
+}
+
+.smef-settings-header{
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+	margin: 0 0 20px;
+	padding: 0 0 20px;
+}
+
+.smef-settings-logo{
+	display: block;
+	width: 120px;
+	height: auto;
+	margin: 0 0 10px;
+}
+
+h1.smef-settings-title{
+	font-size: 2rem;
+	font-weight: 500;
+	line-height: 1.2;
+	margin: 0;
+	padding: 0;
+}
+
+.smef-form .form-table,
+.smef-form .form-table tbody,
+.smef-form .form-table tr,
+.smef-form .form-table th,
+.smef-form .form-table td{
+	display: block;
+	width: auto;
+	margin: 0;
+	padding: 0;
+}
+
+.smef-form{
+	position: relative;
+}
+
+.smef-form.smef-loading{
+	-webkit-opacity: 0.7;
+	-moz-opacity: 0.7;
+	opacity: 0.7;
+}
+
+.smef-form.smef-loading:after{
+	content: "";
+	position: absolute;
+	z-index: 200;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+.smef-form .form-table{
+	width: 400px;
+	max-width: 100%;
+}
+
+.smef-form .form-table tr{
+	margin-bottom: 20px;
+}
+
+.smef-form label{
+	display: block;
+	font-weight: 400;
+	cursor: pointer;
+	margin-bottom: 10px;
+}
+
+.smef-form .smef-form-control{
+	width: 100%;
+	height: 38px;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.3;
+	color: #495057;
+	background-color: #fff;
+	border: 1px solid #ced4da;
+}
+
+.smef-form textarea.smef-form-control{
+	height: 100px;
+	min-height: 100px;
+	resize: vertical;
+}
+
+.smef-form-message{
+	background: #fff;
+	border: 1px solid #c3c4c7;
+	box-shadow: 0 1px 1px rgba(0,0,0,.04);
+	margin: 0;
+	padding: 1px 12px;
+}
+
+body:not(.rtl) .smef-form-message{
+	border-left-width: 4px;
+}
+
+body:not(.rtl) .smef-form-message.info{
+	border-left-color: #72aee6;
+}
+
+body:not(.rtl) .smef-form-message.success{
+	border-left-color: #00a32a;
+}
+
+body:not(.rtl) .smef-form-message.error{
+	border-left-color: #d63638;
+}
+
+body.rtl .smef-form-message{
+	border-right-width: 4px;
+}
+
+body.rtl .smef-form-message.info{
+	border-right-color: #72aee6;
+}
+
+body.rtl .smef-form-message.success{
+	border-right-color: #00a32a;
+}
+
+body.rtl .smef-form-message.error{
+	border-right-color: #d63638;
+}
+
+.smef-form-message p{
+	margin: 0.5em 0 !important;
+	padding: 2px !important;
+}
+
+.smef-form-message ul,
+.smef-form-message ol{
+	margin: 0 !important;
+}
+
+.smef-form-message ul ul{
+	list-style-type: disc;
+	margin-left: 20px;
+}
+
+.smef-form-message ul ul li{
+	margin-bottom: 0;
+}
+
+.rtl .smef-form-message ul ul{
+	margin-left: 0;
+	margin-right: 20px;
+}
+
+.smef-debug-log ul.ul-square{
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.smef-debug-log .smef-limit-height{
+	max-height: 100vh;
+	overflow: auto;
+
+	-webkit-transition: max-height 0.3s ease-in-out;
+	-moz-transition: max-height 0.3s ease-in-out;
+	transition: max-height 0.3s ease-in-out;
+}
+
+.smef-debug-log .smef-limit-height:not(:hover){
+	max-height: 84px;
+}
+
+a.smef-clear-logs{
+	color: #d63638;
+}
+
+a.smef-clear-logs:active, 
+a.smef-clear-logs:focus, 
+a.smef-clear-logs:hover {
+	color: #a00607;
+}

@@ -1,0 +1,38 @@
+contact_data:
+Array
+(
+    [firstName] => Test Name
+    [cellPhone] => 0541234567
+    [customFields] => Array
+        (
+            [i4] => Test message
+        )
+
+    [lists_ToSubscribe] => Array
+        (
+            [0] => 683467
+        )
+
+    [canReceiveEmails] => 1
+    [canReceiveSmsMessages] => 1
+)
+
+--------------
+smoove_contact:
+Array
+(
+    [api_key] => b8f4d41e-717c-4b0a-9c78-82720d7d5aec
+    [code] => 200
+    [body] => Array
+        (
+            [id] => 807889082
+            [externalId] => 
+            [email] => 
+            [cellPhone] => 0541234567
+            [status] => Active
+        )
+
+    [message] => OK
+)
+
+--------------
